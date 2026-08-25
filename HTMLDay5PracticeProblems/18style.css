@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: none;
+  display: flex;
+  
+}
+
+.sub{
+    display: contents;
+}
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
