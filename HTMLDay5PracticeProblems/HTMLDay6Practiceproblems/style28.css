@@ -1,0 +1,5 @@
+table,tr,th,td{
+    border-collapse: collapse;
+    border-color: rgb(14, 1, 26);
+     border-style: dashed;
+}
