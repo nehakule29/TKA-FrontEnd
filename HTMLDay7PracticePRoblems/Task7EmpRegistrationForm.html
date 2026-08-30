@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Onboarding Form</title>
+
+<br><br>
+</head>
+<body>
+    <h3>Welcome , Complete your Onboarding Form</h3></body>
+    <input type="text" id="EmployeeId" placeholder="Enter your EMployee Id"><br><br>
+    <input type="text" id="EmployeeName" placeholder="Enter your name"><br><br>
+    <input type="email" id="email" placeholder="Enter your email"><br><br>
+    <input type="password" id="password" placeholder="Enter Password"><br><br>
+    <label for="Department"> Department </label>
+    <input type="radio" name="Department">BFSI
+    <input type="radio" name="Department">Infra & Finanance
+    <input type="radio" name="Department">IT
+    <input type="radio" name="Department">Hr
+    <br/><br/>
+    <label for="gender"> Gender </label>
+    <select id="gender">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Others</option>
+    </select><br><br>
+    <datalist id="skills">
+  <option value="Java">
+  <option value="Python">
+  <option value="Testing">
+  <option value="Springboot">
+  <option value="Hibernate">
+</datalist>
+
+    <label for="skills"> Skills </label>
+   <input list="skills" type="text"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input list="skills" type="text"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input list="skills" type="text"><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input list="skills" type="text"><br><br>
+    <label for="experience"> Experience : </label>
+    <input type="number" id="experience">
+    <label for="experience">Yrs</label><br/><br/>
+     <label for="address">Address : </label><br>
+    <textarea id="address" required> Address</textarea><br/><br/>
+    <button type="submit" value="Submit">Submit</button> &nbsp&nbsp &nbsp 
+
+</html>

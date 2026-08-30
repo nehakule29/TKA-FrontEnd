@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration Fomr</title>
+
+</head>
+<body>
+    <h3>Customer Registration Form</h3>
+    <form>
+    <label for="FirstName"> First Name </label>
+    <input type="text" id="FirstName">
+    &nbsp;&nbsp;&nbsp;
+    <label for="LastName">Last Name </label>
+    <input type="text" id="LastName"><br><br>
+    <label for="email">Email : </label>
+    <input type="email" id="email">
+    <br/><br>
+    <label for="password"> Password </label>
+    <input type="password" id="password"><br><br>
+    <label for="gender">Gender </label>
+    <input type="radio" name="gender" id="MAle">Male
+    <input type="radio" name="gender" id="female">Female
+    <input type="radio" name="gender" id="Others">Others<br><br>
+    <label for="BirthDate">Date of Birth </label>
+    <input type="date" id="BirthDate"><br><br>
+    <label for="address"> Address </label> <br>
+    <textarea id="address"> Address </textarea><br>
+    <Br>
+    <label for="city"> City </label>
+    <input type="text" id="city"><br><br>
+
+  <label for="state">Choose a State:</label>
+  <input list="states" id="state" name="state">
+
+  <datalist id="states">
+    <option value="Andhra Pradesh">
+    <option value="Arunachal Pradesh">
+    <option value="Assam">
+    <option value="Bihar">
+    <option value="Chhattisgarh">
+    <option value="Goa">
+    <option value="Gujarat">
+    <option value="Haryana">
+    <option value="Himachal Pradesh">
+    <option value="Jharkhand">
+    <option value="Karnataka">
+    <option value="Kerala">
+    <option value="Madhya Pradesh">
+    <option value="Maharashtra">
+    <option value="Manipur">
+    <option value="Meghalaya">
+    <option value="Mizoram">
+    <option value="Nagaland">
+    <option value="Odisha">
+    <option value="Punjab">
+    <option value="Rajasthan">
+    <option value="Sikkim">
+    <option value="Tamil Nadu">
+    <option value="Telangana">
+    <option value="Tripura">
+    <option value="Uttar Pradesh">
+    <option value="Uttarakhand">
+    <option value="West Bengal">
+  </datalist><br><br>
+  <label>Pincode</label>
+  <input type="number" pattern="[0-9]{6}"><br><br>
+  <input type="checkbox" id="T&C">
+  <label for="T&C"> Terms & Conditions</label>
+  <button type="submit">Register</button>
+        </form>
+</body>
+</html>

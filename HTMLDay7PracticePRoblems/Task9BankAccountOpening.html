@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Openeing Form</title>
+</head>
+<body>
+    <h3>
+        Bank Account opening form
+    </h3>
+    <label id="name">Applicant Name</label>&nbsp;&nbsp;
+    <input type="text" id="name"><br><br>
+    <label for="BirthDate">Date of Birth</label>&nbsp;&nbsp;
+    <input type="date" id="BirthDate"><br><br>
+    <label for="gender">Gender </label>
+    <input type="radio" name="gender" id="MAle">Male
+    <input type="radio" name="gender" id="female">Female
+    <input type="radio" name="gender" id="Others">Others<br><br>
+    <label for="AccountType"> Account Type
+    </label>&nbsp;&nbsp;
+    <input type="radio" name="type" id="Savings">Savings
+    <input type="radio" name="type" id="Current">Current<br><br>
+    <label for="Mobile">Mobile No.
+    </label>&nbsp;&nbsp;
+    <input type="tel"  pattern="[0-9]{10}" id="Mobile"><br><br>
+    <label for="email"> Email : </label>
+    <input type="email" id="email">
+    <br/><br>
+    <label for="address"> Address </label> <br>
+    <textarea id="address"> Address </textarea><br>
+    <Br>
+    <label for="city"> City </label>
+    <input type="text" id="city"><br><br>
+ <label for="state"> State </label>
+  <input list="states" id="state" name="state">
+
+  <datalist id="states">
+    <option value="Andhra Pradesh">
+    <option value="Arunachal Pradesh">
+    <option value="Assam">
+    <option value="Bihar">
+    <option value="Chhattisgarh">
+    <option value="Goa">
+    <option value="Gujarat">
+    <option value="Haryana">
+    <option value="Himachal Pradesh">
+    <option value="Jharkhand">
+    <option value="Karnataka">
+    <option value="Kerala">
+    <option value="Madhya Pradesh">
+    <option value="Maharashtra">
+    <option value="Manipur">
+    <option value="Meghalaya">
+    <option value="Mizoram">
+    <option value="Nagaland">
+    <option value="Odisha">
+    <option value="Punjab">
+    <option value="Rajasthan">
+    <option value="Sikkim">
+    <option value="Tamil Nadu">
+    <option value="Telangana">
+    <option value="Tripura">
+    <option value="Uttar Pradesh">
+    <option value="Uttarakhand">
+    <option value="West Bengal">
+  </datalist><br><br>
+  <label for="Occupation"> Occupation </label>&nbsp;&nbsp;
+  <input type="text" id="Occupation"><br><br>
+  <label for="PAN" required>PAN Number</label>
+  <input type="text" id="PAN">
+  <br><br>
+  <input type="checkbox" id="T&C">&nbsp;<label for="T&C">Terms & Conditions</label>
+  <br><br>
+  <input type="submit"><br><br>
+
+</body>
+</html>
