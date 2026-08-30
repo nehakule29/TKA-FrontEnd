@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment</title>
+    
+</head>
+<body>
+    <h3> Course Enrollment Form</h3>
+    <form>
+        <label for="StudentName">  Student Name : </label>
+        <input type="text" id="StudentName" required><br/><br/>
+        <label for="email">   Email   :</label>
+        <input type="email" id="email" required><br/><br/>
+        <label for="mobile">   Mobile   :</label>
+        <input type="tel" id="mobile" pattern="[0-9]{10}"><br/><br/>
+        <label for="Course"> Select Course :</label>
+        <select id="Course">
+            <option>Java</option>
+            <option>Python</option>
+            <option>Testing</option>
+        </select><br/><br/>
+        <label for="LearningMode"> Learning Mode :</label>
+        <input type="radio" id="LearningMode" name="Mode" value="Online">
+        <input type="radio" id="LearningMode" name="Mode" value="=Offline">
+        <input type="radio" id="LearningMode" name="Mode" value="Hybrid"><br/><br/>
+        <label for="skills">   Skills  :</label>
+        <input type="text" id="skills"><br/><br/>
+        <button type="submit" value="Submit"> Submit </button><br/><br/>
+    </form>
+</body>
+</html>

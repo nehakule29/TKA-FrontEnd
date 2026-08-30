@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <form>
+        <label for="FullName"> Full Name : </label>
+        <input type="text" id="FullName" required><br/><br/>
+        <label for="email">   Email   :</label>
+        <input type="email" id="email" required><br/><br/>
+        <label for="mobile">   Mobile   :</label>
+        <input type="tel" id="mobile" pattern="[0-9]{10}"><br/><br/>
+        <label for="datebirth"> Date of Birth : </label>
+        <input type="date" id="datebirth"><br/><br/>
+        <label for="Gender">  Gender : </label>
+        <input type="radio" id="Gender" name="gender" value="Male">Male
+        <input type="radio" id="Gender" name="gender" value="Female">Female
+        <input type="radio" id="Gender" name="gender" value="Others">Others<br/><br/>
+        <label for="Qualification"> Qualification :</label>
+        <select id="Qualification">
+            <option> B.E </option>
+            <option>B.Tech</option>
+            <option>M.E / M.Tech</option>
+            <option>Other</option>
+        </select><br/><br/>
+        <label for="experience"> Experience : </label>
+        <input type="number" id="experience">
+        <label for="experience">Yrs</label><br/><br/>
+        <label for="PreferredLocation">Preferred Location :</label>
+        <select id="PreferredLocation">
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Bangalore</option>
+            <option>Delhi</option>
+
+        </select><br/><br/>
+        <label for="EmploymentType">Employment Type</label>
+        <select id="EmploymentType">
+            <option>Full Time</option>
+            <option>Part Time</option>
+            <option>Contract</option>
+        </select>
+    </br><br/>
+    <label for="address">Address : </label>
+    <textarea id="address" required> Address</textarea><br/><br/>
+    <label for="resume"> Resume Upload : </label>
+    <input type="file" id="resume" required><br/><br/>
+    <button type="submit" value="Submit">Submit</button> &nbsp&nbsp &nbsp 
+    <button type="reset"> Reset </button>
+    </form>
+</body>
+</html>
