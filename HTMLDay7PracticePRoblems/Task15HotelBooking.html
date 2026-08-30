@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form </title>
+</head>
+<body>
+    <h3> Welcome to the hotel </h3>
+    <form>
+        <label for="GuestName">Guest Name </label>
+        <input type="text" id="GuestName" placeholder="Enter name here"><br><br>
+        <label for="email">Email </label>
+        <input type="email" id="email" placeholder="Enter email-id here"><br><br>
+        <label for="mobile">Mobile </label>
+        <input type="tel" id="mobile" placeholder="Enter your Mobile No." pattern="[0-9]{10}"><br><br>
+        <label for="Checkin">Check-in Date</label>
+        <input type="datetime-local" id="Checkin"><br><br>
+        <label for="Checkout">Check-out Date</label>
+        <input type="datetime-local" id="Checkout"><br><br>
+        <label for="GuestNumber">Number of Guests</label>
+        <input type="number" id="GuestNumber" max="6"><br><br>
+        <label for="RoomType"> Room Type </label>
+        <select id="RoomType">
+        <option>Classic</option>
+        <option>Couple</option>
+        <option>Family</option>
+        <option>Platinum</option></select><br><br>
+        <label for="MealPreference"> Meal Preferences</label>
+        <input type="checkbox" name="meal" id="IndianV">Indian Veg
+        <input type="checkbox" name="meal" id="IndianN">Indian NonVeg
+        <input type="checkbox" name="meal" id="Chinese/Continental">Chinese/Continental Veg
+        <input type="checkbox" name="meal" id="Chinese/ContinentalN">Chinese/Continental Non-Veg
+        <br><br>
+        <label for="request">Special Requests</label>
+        <textarea>Add if any Special Request for us here</textarea><br><br>
+        <input type="Submit" value="Book Now" style="background-color: rgb(143, 143, 240);">
+
+
+        
+        
+
+        
+
+
+    </form>
+</body>
+</html>

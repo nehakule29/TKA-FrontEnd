@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Appointment</title>
+</head>
+<body>
+    <h3 style="text-align:center;background-color: rgb(221, 183, 137);">
+        Doctor Appointment
+    </h3>
+    <form style="text-align: center; background-color: rgba(126, 253, 0, 0.537);">
+        <label for="PatientName">Patient's Name</label>
+        <input type="text" id="PatientName" placeholder="Enter Patients Name"><br><br>
+        <label for="Age">Age </label>
+        <input type="number" max="120" placeholder="Enter Patient's Age"><br><br>
+        <label for="gender">Gender </label>
+        <input type="radio" name="gender" id="MAle">Male
+        <input type="radio" name="gender" id="female">Female
+        <input type="radio" name="gender" id="Others">Others<br><br>
+        <label for="Mobile">Mobile</label>
+        <input type="number" pattern="[0-9]{10}" placeholder="Enter mobile no."><br><br>
+        <label for="email"> Email</label>
+        <input type="email" placeholder="Enter Email here"><br><br>
+        <label for="Department">Department </label>
+        <select id="Department">
+            <option>Neurology</option>
+            <option>Pediatrics</option>
+            <option>Endocrinology</option>
+            <option>Cancer Treatment</option>
+            <option>Orthopedics</option>
+        </select><br><br>
+        <label for="Doctor">Doctor</label>
+        <select name="Doctor" id="Doctor">
+            <optgroup label="Neurology">
+                <option>Dr. Vinit Suri</option>
+                <option>Dr. Praveen Gupta</option>
+            </optgroup>
+            <optgroup label="Pediatrics">
+                <option>Dr. Dhananjay Bora</option>
+                <option>Dr. Girish Dua</option>
+            </optgroup>
+            <optgroup label="Endocrinology">
+                <option>Dr. Vaman Khadilkar</option>
+            </optgroup>
+            <optgroup label="Orthopedics">
+                <option>Dr.Ashok Rajgopal</option>
+                <option>Dr. Yash Gulati</option>
+            </optgroup>
+
+        </select><br><br>
+        <label for="AppontmentDate"> Appointment Date</label>
+        <input type="date" id="AppointmentDate"><br></br>
+        <label for="AppointmentTime">Appointment Time</label>
+        <input type="time" id="AppointmentTime"><br><br>
+        <label for="Desciption"> Problem Desciption</label>
+        <textarea id="Description">Enter here the problem's Description</textarea><br><br>
+        <button type="submit">Book Appointment</button>
+    </form>
+</body>
+</html>

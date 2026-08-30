@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+</head>
+<body>
+    <h3>
+        Your travel to paradise Location starts here ! 
+    </h3>
+    <form style="border: 1px; background-color: aquamarine; margin-right: auto; text-align: center;">
+    <label for="PassengerNAme">Passenger Name</label>
+    <input type="text" id="PassengerNAme" placeholder="Enter your name here" required><br><br>
+    <label for="From"> From </label>
+    <input type="text" id="From" autocomplete="country-name"> &nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="To">To</label>
+    <input type="text" autocomplete="country-name">  
+    <br><br>
+    <label for="JourneyDate">Journey Date</label>
+    <input type="datetime" id="JourneyDate"><br><br>
+    <label for="PassengerNo"> Number of Passengers </label>
+    <input type="number" id="PassengerNo" placeholder="Enter No. of Passengers"><br><br>
+    <label for="gender">Gender </label>
+    <input type="radio" name="gender" id="MAle">Male
+    <input type="radio" name="gender" id="female">Female
+    <input type="radio" name="gender" id="Others">Others<br><br>
+    <label for="SeatPreference">Seat Preference</label>
+    <input type="number" id="SeatPreference" max="10"><br><br>
+    <label for="TravelClass"> Travel Class </label>
+    <select id="TravelClass">
+        <option>General Class</option>
+        <option>3rd AC sleeper class</option>
+        <option>2nd AC Sleeper class</option>
+        <option>Sleeper class</option>
+    </select><br><br>
+    <input type="submit" style="background-color: chocolate;">
+    </form>
+</body>
+</html>
