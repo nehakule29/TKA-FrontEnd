@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Leave Application</title>
+</head>
+<body>
+   <h3 style="text-align: center;">Employee Leave Application</h3> 
+   <form style="text-align: center; background-color: rgb(100, 233, 140);">
+    <label for="EmpId">Employee ID</label>
+    <input type="text" id="EmpId" required placeholder="Enter here EMployee Id"><br><br>
+    <label for="EmpName">Employee Name</label>
+    <input type="text" id="EmpName"><br><br>
+    <label for="Department"> Department </label>
+    <input type="radio" name="Department">BFSI
+    <input type="radio" name="Department">Infra & Finanance
+    <input type="radio" name="Department">IT
+    <input type="radio" name="Department">Hr
+    <br/><br/>
+    <label for="LeaveType">Leave Type</label>
+    <select id="LeaveType">
+        <option>Casual</option>
+        <option>Sick</option>
+        <option>Paid</option>
+    </select><br><br>
+    <label for="FromDate">From Date</label>
+    <input type="date" id="FromDate"><br><br>
+    <label for="ToDate">To Date</label>
+    <input type="date" id="ToDate"><br><br>
+    <label for="Reason">Reason</label>
+    <textarea id="Reason">Enter the reason for leave
+    </textarea><br><br>
+    <label for="ManagerName">Manager Name</label>
+    <input type="text" id="ManagerName"><br><br>
+    <input type="submit">
+    <input type="reset">
+    
+   </form>
+</body>
+</html>
