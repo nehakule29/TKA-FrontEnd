@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support Ticket Form</title>
+
+</head>
+<body>
+    <h3>IT Support Ticket Form</h3>
+    <form>
+    <label for="EmpName">Employee Name</label>    
+    <input type="text" id="EmpName" placeholder="Enter name"><br><br>
+    <label for="EmpId">Employee Id </label>
+    <input type="number" pattern="[0-9]{7}"><br><br>
+    <label for="Department">Department
+    <input type="radio" name="department">Hr
+    <input type="radio" name="department">IT
+    <input type="radio" name="department">Software Development
+    <br><br>
+    <label for="IssueCategory">Issue Category</label>
+    <select id="IssueCategory">
+        <option>Hardware</option>
+        <option>Software</option>
+        <option>Network</option>
+        <option>Email</option>
+        <option>Login</option>
+        <option>Printer</option>
+        <option>Other</option>
+    </select><br><br>
+    <label for="Priority"> Priority</label>
+    <select id="Priority">
+        <option>High</option>
+        <option>Medium
+        </option>
+        <option>Low</option>
+
+    </select>
+    <label for="DeviceType">Device Type</label>
+    <input type="text" id="DeviceType" placeholder="Enter device type"><br><br>
+    <label for="IssueDescription">Issue Description</label> 
+    <input type="text" id="IssueDescription" placeholder="Enter issue description"><br><br>
+    <label for="ContactNumber">Contact Number</label>
+    <input type="text" id="ContactNumber" placeholder="Enter contact number"><br><br>   
+    <input type="submit" value="Submit Ticket">
+    </form>
+</body>
+</html>

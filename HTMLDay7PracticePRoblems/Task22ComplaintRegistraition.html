@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Registration Form</title>
+</head>
+<body>
+    <h3>Complaint Registration Form</h3>
+    <form>
+        <label for="CustomerName">Customer Name</label>
+        <input type="text" id="CustomerName"><br><br>
+        <label for="CustomerId">Customer Id</label>
+        <input type="number" placeholder="Enter your Id" required><br><br>
+        <label for="email"> Email </label>
+        <input type="email" placeholder="Enter your email here" required><br><br>
+        <label for="Mobile">Mobile</label>
+        <input type="number" pattern="[0-9]{10}" id="Mobile" placeholder="Enter your mobile number">
+        <label for="ComplaintCategory">Complaint Category</label>
+        <input type="radio" name="category" id="Product">Product
+        <input type="radio" name="category" id="Service">Service
+        <br><br>
+        <label for="Priority">PRiority</label>
+        <select name="Priority" id="Priority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select><br><br>
+        <label for="ComplaintDescription">Complaint Description</label>
+        <textarea id="ComplaintDescription" placeholder="Enter your complaint here" required></textarea><br><br>
+        <label for="ContactMethod">Preferred Contact Method</label>
+        <input type="checkbox" id="Email">Email
+        <input type="checkbox" id="Phone">Phone
+        <input type="checkbox" id="SMS">SMS
+        <br><br>
+        <input type="submit" value="Submit Complaint">  
+    </form>
+</body>
+</html>

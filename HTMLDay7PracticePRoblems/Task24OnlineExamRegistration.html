@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineExamRegistration</title>
+</head>
+<body>
+    <h3>Online Exam Registration</h3>
+    <label for="StudentName"> Student Name </label>
+    <input type="text" id="StudentName" placeholder="Enter your name here"><br><br>      <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email here" required><br><br>
+    <label for="Mobile">Mobile</label>
+    <input type="tel" pattern="[0-9]{10}" placeholder="Enter your phone here" required><br><br>
+    <label for="RollNo">Roll No.</label>
+    <input type="text" id="RollNo" placeholder="Enter your roll number here" required><br><br>
+    <label for="Course">Course</label>
+    <input id="Course" type="text" disabled value="B.Tech"><br><br>
+    <label for="Semester">Semester</label>
+    <input type="number" id="Semester" max="8" placeholder="Enter your semester here" required><br><br>
+    <label for="Subject">Subject</label>
+    <input type="text" id="Subject" placeholder="Enter your subject here" required><br><br>
+    <label for="ExamCenter">Exam Center</label>
+    <input type="text" id="ExamCenter" placeholder="Enter your exam center here" required><br><br>
+    <label for="ExamDate">Exam Date</label>
+    <input type="date" id="ExamDate" required><br><br>
+    <input type="checkbox" id="T&C"><label for="T&C">Declaration</label><br><br>
+    <input type="submit" value="Register" style="background-color: rgb(22, 150, 255);">
+
+</body>
+</html>
