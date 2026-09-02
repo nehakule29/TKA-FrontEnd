@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: #5f0d0d;
+}
+nav{
+    text-align: center;
+    font-size: 22px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+a{
+    color:rgb(149, 149, 20);
+
+}
+.categories{
+    background-color: rgb(122, 163, 252);
+    color: rgb(25, 33, 49);
+    border: 2px solid;
+} 
+.reviews{
+    display: flex;
+    background-color: rgb(255, 184, 133);
+    color: #5d1b1b;
+
+}
+article{
+    flex:1;
+    border: black solid 1px;
+    margin: 10px;
+    padding: 3px;
+}
+footer{
+    background-color: crimson;
+
+}
+
