@@ -1,0 +1,22 @@
+/* header */
+
+header{
+    border: 2px solid rgb(0,86,161);
+    color: rgb(109, 57, 50);
+}
+
+/* main */
+article{
+    color:rgb(0, 86, 161);
+    border:4px dashed rgb(109, 57, 50);
+}
+
+nav{
+    background-color: rgb(131, 175, 214);
+    color: rgb(109, 57, 50);
+}
+
+aside{
+    background-color: rgb(109, 57, 50);
+    color: aliceblue;
+}

@@ -1,0 +1,27 @@
+/* Header */
+header{
+    background-color: #7a1dbde0;
+    color: #ddd2e4;
+    font-family: 'Courier New', Courier, monospace;
+}
+a,nav{
+    font-size: 20px;
+    color:#00fed8;
+}
+
+/* Main */
+main{
+     color:#29063f;
+     font-family: 'Courier New', Courier, monospace;
+}
+article{
+    color:#7a1dbde0;
+    background-color: #ddd2e4;
+}
+
+/* Footer */
+footer{
+    background-color: #27053f7c;
+    color: #ddd2e4;
+    font-family: 'Courier New', Courier, monospace;
+}
