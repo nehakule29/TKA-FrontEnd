@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         img{
+            width: 30%;
+            height: 10%;
+            padding: 0%;
+            margin-right: 200px;
+            border: ridge rgb(183, 77, 77) 5px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: rgb(47, 14, 14);
+            color: rgb(131, 106, 106);
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            font-family: Verdana;
+            font-style: oblique;
+            font-size: medium;
+
+            a {
+                color: rgb(95, 45, 45);
+            }
+        }
+         h2 {
+            color: rgba(164, 44, 0, 0.759);
+            background-color: rgb(195, 176, 129);
+            font-family: cursive;
+            text-align: center;
+        }
+        .container{
+            display:grid;
+            grid-template-columns: 2;
+            grid-template-rows: 2;
+            
+            .starters{
+                grid-template-rows: 1;
+                grid-template-columns: 1;
+            }
+            .dessert{
+                grid-row-start: 2;
+                grid-column-start: 1;
+            }
+            .main-course{
+                grid-row-start: 1;
+                grid-column-start: 2;
+            }
+            .fast-food{
+                grid-row-start: 2;
+                grid-column-start: 2;
+            }
+        }
+        .container section{
+            box-sizing: border-box;
+            border: 2px ridge palevioletred;
+            border-radius: 15px;
+            margin: 3px;
+            box-shadow: 0px 0px 10px 0px rgb(128, 10, 10);
+        }
+        .container section:hover{
+            font-size: large;
+            color:cornsilk;
+            font-style: bold;
+            background-color: rgba(255, 56, 56, 0.653);
+            
+        }
+        .container h4{
+            font-size: large;
+            text-align: center;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <section class="logo-login">
+            <img src="images/Foodhub-logo.png">
+        </section>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="restauarants.html">Restauarants</a>
+            <a href="menu.html">Menu</a>
+            <a href="offers.html">Offers</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <input type="submit" value="Login" id="login" class="btn btn-outline-warning">
+            <input type="submit" value="Register" id="register" class="btn btn-outline-danger">
+
+        </nav>
+
+    </header>
+    <hr>
+    <h2> Food menu</h2>
+
+    <main class="container">
+        <section class="starter">
+            <h4>Starters</h4>
+            <ul>
+                <li>Paneer Tikka</li>
+                <li>Manchurian</li>
+                <li>Spring Rolls</li>
+                <li>Chicken 65</li>
+            </ul>
+        </section>
+        <section class="desserts">
+            <h4>Dessert</h4>
+            <ul>
+                <li>Gulab Jamun</li>
+                <li>Puran Poli</li>
+                <li>Cheese cake</li>
+                <li>Rasmalai</li>
+            </ul>
+        </section>
+        <section class="fast-food">
+            <h4>Fast Food</h4>
+            <ul>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Sandwich</li>
+                <li>French Fries</li>
+            </ul>
+        </section>
+        <section class="main-course">
+            <h4>Main Course</h4>
+            <ul>
+                <li>Biryani</li>
+                <li>Paneer Masala</li>
+                <li>Butter Chicken</li>
+                <li>Veg Thali</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p><b>Contact : +91 556452444</b></p>
+        <p style="font-weight: 100;">Quick Links</p>
+        <a href="zomato.com">Zomato</a>
+        <a href="youtube.com">Youtube</a>
+
+        <div>
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
+            Policies. All trademarks are properties of their respective owners<br>2008-2026 © Foodhub™ Ltd. All rights
+            reserved.
+        </div>
+    </footer>
+</body>
+</html>

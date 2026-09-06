@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            font-family: Verdana;
+            font-style: oblique;
+            font-size: medium;
+            a {
+                color: rgb(95, 45, 45);
+            }
+        }
+
+        footer {
+            background-color: rgb(47, 14, 14);
+            color: rgb(131, 106, 106);
+        }
+
+        .container {
+            display: flex;
+        }
+        
+        h2 {
+            color: rgba(164, 44, 0, 0.759);
+            background-color: rgb(195, 176, 129);
+            font-family: cursive;
+            text-align: center;
+        }
+        .card {
+            margin: 5vw;
+            
+        }
+        h5{
+            text-shadow: 2px 2px rgba(29, 135, 82, 0.452);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="logo-login">
+            <img src="images/Foodhub-logo.png" style="width: 30%;
+            height: 10%;
+            padding: 0%;
+            margin-right: 200px;
+            border: ridge rgb(183, 77, 77) 5px;
+            border-radius: 10px;">
+        </section>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="restauarants.html">Restauarants</a>
+            <a href="menu.html">Menu</a>
+            <a href="offers.html">Offers</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <input type="submit" value="Login" id="login" class="btn btn-outline-warning">
+            <input type="submit" value="Register" id="register" class="btn btn-outline-danger">
+
+        </nav>
+
+    </header>
+    <hr>
+    <h2> Offers </h2>
+
+    <main class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.shutterstock.com/shutterstock/photos/777537472/display_1500/stock-vector-sale-tag-vector-badge-template-percent-off-sale-label-symbol-discount-promotion-flat-icon-777537472.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">30% OFF ON FIRST ORDER</h5>
+                <p class="card-text"> New Customer? Get your coupon code and pay 1/3 of price</p>
+                COUPON CODE : <input type="text" value="F30ORD" disabled><br> Validity : 2 days<br>
+                <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.Yt3ngwbdSzX22n1rHgKCrAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Buy 1 GET 1</h5>
+                <p class="card-text">Offer valid on Large Pizzas</p>
+                COUPON CODE : <input type="text" value="B1G120" disabled><br> Validity : 2 days<br>
+
+                <a href="#" class="btn btn-success">Order Now</a>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.fZS9JIo9yomA5DHaXtT9FAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="card-img-top" alt="Free Delivery">
+            <div class="card-body">
+                <h5 class="card-title">FREE DELIVERY 499</h5>
+                <p class="card-text"> Add food items above 499 and activate your free delivery</p>
+                COUPON CODE : <input type="text" value="FDEL499" disabled><br> Validity : 2 days<br>
+                <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p><b>Contact : +91 556452444</b></p>
+        <p style="font-weight: 100;">Quick Links</p>
+        <a href="zomato.com">Zomato</a>
+        <a href="youtube.com">Youtube</a>
+        <div>
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
+            Policies. All trademarks are properties of their respective owners<br>2008-2026 © Foodhub™ Ltd. All rights
+            reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
